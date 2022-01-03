@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Seção de Layout</h1>
+    <button class="btn btn-primary">clica em mim</button>
+    
+<!-- Container -->
+<div class="container">
+    <h2>Título da Seção</h2>
+    <p>Conteúdo do Container</p>
+    <p>Conteúdo do Container</p>  
+</div>
+
+<!-- Container Fluid-->
+<div class="container-fluid">
+    <h2>Título da Seção</h2>
+    <p>Conteúdo do Container</p>     
+</div>
+
+<!-- Container Breakpoint-->
+<div class="container-sm">
+    <h2>Título da Seção</h2>
+    <p>Conteúdo do Container</p>  
+    
+<div class="container-md">
+    <h2>Título da Seção</h2>
+    <p>Conteúdo do Container</p>     
+</div>    
+
+<div class="container-lg">
+    <h2>Título da Seção</h2>
+    <p>Conteúdo do Container</p>     
+</div>
+
+<!-- Grid -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <p>Produto A</p>
+        </div>
+        <div class="col">
+            <p>Produto B</p>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="col">
+                <p>Produto C</p>
+            </div>
+            <div class="col">
+                <p>Produto D</p>
+            </div>    
+            <div class="col">
+                <p>Produto E</p>
+            </div>
+    </div>
+</div>
+
+<!-- Tamanho das colunas -->
+<div class="container">
+    <div class="row">
+       <div class="col-4"></div>
+       <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-11"></div>
+    </div>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+    </div>
+</div>
+
+<div class="container" id="largura-limitada" >
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+    </div>
+</div>
+
+<!-- Limitação de colunas -->
+<div class="container">
+    <div class="row row-cols-2">
+        <div class="col"></div>
+        <div class="col"></div>  
+    </div>
+    <div class="row row-cols-2">
+        <div class="col"></div>
+        <div class="col"></div>  
+    </div>
+    <div class="row rows-2">
+        <div class="col"></div>
+        <div class="col"></div>  
+    </div>
+</div>
+
+<!-- Alinhamento Vertical -->
+<div class="container vertical">
+    <div class="row align-items-end">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+    </div>
+</div>
+
+<div class="container vertical">
+    <div class="row align-items-center">
+        <div class="col-6"></div>
+        <div class="col-6"></div>
+    </div>
+</div>
+
+<!-- Alinhamento Horizontal -->
+<div class="container vertical">
+    <div class="row align-items-center justify-content-center">
+        <div class="col-3"></div>    
+    </div>
+</div>
+<div class="container vertical">
+    <div class="row justify-content-end">
+        <div class="col-3"></div>  
+        <div class="col-3"></div>    
+    </div>
+</div>
+<!-- Alinhamento de Item -->
+<div class="container vertical">
+    <div class="row">
+        <div class="col-3"></div>  
+        <div class="col-3 align-self-center"></div> 
+        <div class="col-3"></div> 
+        <div class="col-3 align-self-center"></div>    
+    </div>
+</div> 
+
+<div class="container vertical">
+    <div class="row">
+        <div class="col-4"></div>  
+        <div class="col-4 align-self-center"></div> 
+        <div class="col-4 align-self-end"></div>    
+    </div>
+</div>    
+
+<!-- Ordem de Item -->
+<div class="container vertical">
+    <div class="row">
+        <div class="col-3 order-3">3</div>  
+        <div class="col-3 order-1">1</div>
+        <div class="col-3 order-4">4</div>
+        <div class="col-3 order-2">2</div> 
+    </div>
+</div>   
+
+<!-- Offset -->
+<div class="container vertical" id="offset">
+    <div class="row">
+        <div class="col-md-3 offset-md-1"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-2"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-3"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-4"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-5"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-6"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-7"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-8"></div>  
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-9"></div>  
+    </div>
+</div>  
+ <!-- Gutters -->
+ <div class="container" id="gutter">
+     <div class="row gx-2">
+         <div class="col">
+            <p>GX</p>
+         </div>
+         <div class="col">
+            <p>GX</p>
+         </div>
+     </div>
+     <div class="row gy-4">
+        <div class="col">
+           <p>GY</p>
+        </div>
+        <div class="col">
+           <p>GY</p>
+        </div>
+    </div>
+    <div class="row g-5">
+        <div class="col-6">
+           <p>G</p>
+        </div>
+        <div class="col-6">
+           <p>G</p>
+        </div>
+        
+        <div class="col-6">
+            <p>G</p>
+         </div>
+         <div class="col-6">
+            <p>G</p>
+         </div>
+    </div>
+ </div>
+
+</body>
+</html>
