@@ -1,0 +1,11 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+.carousel,
+.carousel-item {
+    height: 450px;
+}
