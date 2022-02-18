@@ -12,13 +12,95 @@
  <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" defer></script>
  <script src="js/scripts.js" defer></script>
- <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="css/style.css" defer>
 </head>
 
 <body>
   
 <!-- Container -->
+<nav class="navbar bg-dark navbar-dark">
+    <div class="container-fluid">
+ 
+       <a class="navbar-brand" href="#"><img src="perfil_150x150.png" alt="Perfil" style="width: 45px;"></a>
+ 
+       <!-- barra de Pesquisa -->
+       <form class="d-flex">
+          <input class="form-control m-2" type="text">
+          <button class="btn btn-primary m-2">Pesquisa</button>
+       </form>
 
+        <!-- Nav Sandwich -->  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCursos" style="cursor:pointer" aria-expanded="true">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         
+         <div class="navbar-collapse collapse" id="menuCursos">
+         <ul class="navbar-nav">   
+         <li class="nav-item">
+            <a  class="nav-link" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Projetos Pedagógicos</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Dicas Culturais</a>
+        </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Contatos</a>
+         </li>
+     </ul>
+   </div>
+</div>
+</nav> 
+
+    <!--  Carousel -->
+   <div id="banner" class="carousel slide" data-bs-ride="carousel">
+
+    <div id="indicadores" class="carousel-indicators">
+        <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+    </div>
+
+    <div id="imagens" class="carousel-inner" active>
+        <div class="carousel-item active">
+            <img src="jardinagem1_500x375.jpg" class="d-block w-100" alt="Jardim 1">
+        </div>
+
+        <div class="carousel-item">
+            <img src="jardim2_500x375.jpg" class="d-block w-100" alt="Jardim 2">
+        </div>      
+       
+        <div class="carousel-item">
+            <img src="trab_arte_500x375.jpg" class="d-block w-100" alt="Arteterapia 2">
+        </div>
+    </div>
+   
+        <button type="button" class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button type="button" class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+   </div>  
+
+    <!-- Card -->
+   <div class="card" style="width: 250px;" m-6>
+    
+     <div class="card-header">
+       <h1 class="card-title">Card</h1>      
+    </div>
+    <img class="card-img" src="minha_arte500x375.jpg" alt="Artesanato">
+ </div> 
+
+ <div class="card" style="width: 250px;" m-6>
+    
+    <div class="card-header">
+      <h1 class="card-title">Card</h1>      
+   </div>
+   <img class="card-img" src="minha_arte500x375.jpg" alt="Artesanato">
+</div> 
 
 
 </body>
