@@ -2,13 +2,12 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#banner {
-    600px;
-}
+#banner, .carousel-item  {
+   height: 450px;
+ }
 
-.card {
-    display: flex;
-    align-items: center;
+.container {
+   margin-top: 30px;
 
 }
 
