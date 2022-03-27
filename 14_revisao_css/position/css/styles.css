@@ -1,0 +1,39 @@
+/* Positions */
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(24, 182, 58);
+    border-bottom: 4px dotted red;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right: 0;
+    top: 0;
+}
+
+.fixed {
+    height: 200px;
+    position: fixed; /* caminha junto a barra de rolagem */
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: static;
+    background-color: gray;
+    top: 50px;
+}

@@ -1,0 +1,32 @@
+.container {
+    padding: 10px;
+}
+.div-float {
+    overflow: auto;
+}
+
+.img-float {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    }
+    
+.clear  {
+    clear: both;
+}    
+
+
+
+
+
